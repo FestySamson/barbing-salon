@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAISON NOIR | Premium Barbershop & Men's Grooming</title>
+<meta name="description" content="Precision cuts, beard grooming, colour, treatments and home service. Book your appointment via WhatsApp.">
+<meta property="og:title" content="MAISON NOIR | Premium Barbershop">
+<meta property="og:description" content="More than a haircut. It's your signature.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=70">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0B0B'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='%23C6A46A' font-family='serif'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<!-- HEADER -->
+<header class="nav" id="nav">
+  <a class="logo" href="#home">MAISON <span>NOIR</span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#gallery">Gallery</a><a href="#shop">Shop</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-sm" href="#book">Book Appointment</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu"><i data-lucide="menu"></i></button>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1800&q=75" alt="Barber giving a client a precision haircut" width="1800" height="1200" fetchpriority="high">
+  <div class="hero-in">
+    <p class="eyebrow">The art of men's grooming</p>
+    <h1>More Than a Haircut. It's Your Signature.</h1>
+    <p class="lead">Precision cuts, exceptional grooming and a premium experience designed around your style.</p>
+    <div class="actions"><a class="btn" href="#book">Book Your Appointment</a><a class="btn btn-ghost" href="#services">Explore Our Services</a></div>
+  </div>
+  <a class="scroll" href="#services" aria-label="Scroll to services"><i data-lucide="chevron-down"></i></a>
+</section>
+
+<!-- SERVICES -->
+<section class="sec" id="services">
+  <div class="head reveal"><p class="eyebrow">Services</p><h2>Grooming, Redefined.</h2><p>Expert craftsmanship. Premium products. A style that speaks for itself.</p></div>
+  <div class="svc">
+    <article class="reveal s-a"><img loading="lazy" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=70" alt="Fresh fade haircut in progress" width="900" height="1100">
+      <div><h3>Haircuts &amp; Styling</h3><p>Classic cuts, low, mid and high fades, skin fades, afro cuts, tapers and hairline detailing.</p><a class="link" href="#book" data-service="Skin Fade & Styling">Book this service</a></div></article>
+    <article class="reveal s-b"><img loading="lazy" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=70" alt="Beard being trimmed and shaped" width="900" height="700">
+      <div><h3>Beard Grooming</h3><p>Trimming, shaping, line-ups and haircut and beard combinations.</p><a class="link" href="#book" data-service="Beard Trim & Line-up">Book this service</a></div></article>
+    <article class="reveal s-c"><img loading="lazy" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=900&q=70" alt="Hair colouring at a barber station" width="900" height="700">
+      <div><h3>Hair Colouring</h3><p>Dyeing, colour styling and colour correction where offered.</p><a class="link" href="#book" data-service="Hair Dyeing">Book this service</a></div></article>
+    <article class="reveal s-d"><img loading="lazy" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=70" alt="Barbershop interior with chairs" width="900" height="1100">
+      <div><h3>Hair &amp; Scalp Treatment</h3><p>Conditioning, scalp care, dandruff-care treatments and ongoing maintenance.</p><a class="link" href="#book" data-service="Hair Treatment">Book this service</a></div></article>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="sec alt" id="pricing">
+  <div class="head reveal"><p class="eyebrow">Pricing</p><h2>The Service Menu</h2><p>Exceptional grooming, with transparent pricing.</p></div>
+  <!-- EDIT PRICES HERE: change the text inside <span class="price"> -->
+  <ul class="menu reveal">
+    <li><a href="#book" data-service="Classic Haircut"><div><h3>Classic Haircut</h3><p>Clean, timeless cut finished with a neat edge.</p></div><span class="price">₦3,000</span></a></li>
+    <li><a href="#book" data-service="Low / Mid Fade"><div><h3>Low / Mid Fade</h3><p>Smooth gradient blended to your preferred height.</p></div><span class="price">₦4,000</span></a></li>
+    <li><a href="#book" data-service="Skin Fade & Styling"><div><h3>Skin Fade &amp; Styling</h3><p>Razor-fine fade with styling to finish.</p></div><span class="price">₦5,000</span></a></li>
+    <li><a href="#book" data-service="Haircut & Beard Grooming"><div><h3>Haircut &amp; Beard Grooming</h3><p>Full cut with beard shaping and line-up.</p></div><span class="price">₦6,000</span></a></li>
+    <li><a href="#book" data-service="Beard Trim & Line-up"><div><h3>Beard Trim &amp; Line-up</h3><p>Defined edges and a tidy, shaped beard.</p></div><span class="price">₦2,000</span></a></li>
+    <li><a href="#book" data-service="Hair Dyeing"><div><h3>Hair Dyeing</h3><p>Colour application and styling.</p></div><span class="price">From ₦5,000</span></a></li>
+    <li><a href="#book" data-service="Hair Treatment"><div><h3>Hair Treatment</h3><p>Conditioning and scalp care.</p></div><span class="price">From ₦4,000</span></a></li>
+    <li><a href="#book" data-service="Home Service"><div><h3>Home Service</h3><p>Professional barbering at your location.</p></div><span class="price">From ₦10,000</span></a></li>
+  </ul>
+  <p class="note">Sample prices. Final prices for colouring, treatments and home visits depend on the service required and location.</p>
+</section>
+
+<!-- GALLERY -->
+<section class="sec" id="gallery">
+  <div class="head reveal"><p class="eyebrow">Gallery</p><h2>The Craft Speaks.</h2><p>Every detail matters. Every cut tells a story.</p></div>
+  <div class="gal">
+    <button class="reveal g1" data-full="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1400&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=70" alt="Sharp modern haircut" width="800" height="1000"></button>
+    <button class="reveal g2" data-full="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1400&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=70" alt="Barbershop interior" width="800" height="600"></button>
+    <button class="reveal g3" data-full="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1400&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=70" alt="Beard grooming detail" width="800" height="600"></button>
+    <button class="reveal g4" data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1400&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=70" alt="Fade haircut being finished" width="800" height="1000"></button>
+  </div>
+</section>
+<div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Image preview" hidden><button id="lbClose" aria-label="Close preview"><i data-lucide="x"></i></button><img alt=""></div>
+
+<!-- HOME SERVICE -->
+<section class="home">
+  <img loading="lazy" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=1600&q=70" alt="" width="1600" height="900">
+  <div class="home-in reveal"><p class="eyebrow">Home Service</p><h2>Premium Grooming. Wherever You Are.</h2>
+    <p>Enjoy professional barbering in the comfort of your home, office or hotel. Request a visit that fits your schedule.</p>
+    <p class="small">Availability, travel charges and final pricing are confirmed by the salon.</p>
+    <a class="btn" href="#book" data-service="Home Service" data-type="Home service">Request Home Service</a></div>
+</section>
+
+<!-- SHOP -->
+<section class="sec alt" id="shop">
+  <div class="head reveal"><p class="eyebrow">Shop</p><h2>The Tools of the Trade.</h2><p>Clippers, trimmers, blades, guards, chargers, spare parts, foil shavers, brushes and combs. Sample prices; edit as needed.</p></div>
+  <div class="prod">
+    <article class="reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=70" alt="Professional clippers in use" width="600" height="600"><h3>Professional Hair Clipper</h3><p class="price">₦45,000</p><button class="btn btn-sm" data-product="Professional Hair Clipper">Enquire on WhatsApp</button></article>
+    <article class="reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=70" alt="Cordless trimmer for beard detailing" width="600" height="600"><h3>Cordless Trimmer</h3><p class="price">₦25,000</p><button class="btn btn-sm" data-product="Cordless Trimmer">Enquire on WhatsApp</button></article>
+    <article class="reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=70" alt="Grooming accessories on a counter" width="600" height="600"><h3>Blades, Guards &amp; Spare Parts</h3><p class="price">Contact for price</p><button class="btn btn-sm" data-product="Blades, Guards & Spare Parts">Enquire on WhatsApp</button></article>
+    <article class="reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=70" alt="Brushes and combs at a barber station" width="600" height="600"><h3>Brushes, Combs &amp; Foil Shavers</h3><p class="price">Contact for price</p><button class="btn btn-sm" data-product="Brushes, Combs & Foil Shavers">Enquire on WhatsApp</button></article>
+  </div>
+</section>
+
+<!-- WHY US (confirm each claim with the owner before publishing) -->
+<section class="sec" id="why">
+  <div class="head reveal"><p class="eyebrow">Why Choose Us</p><h2>The Standard We Keep.</h2></div>
+  <ul class="why">
+    <li class="reveal"><i data-lucide="scissors"></i><h3>Skilled barbers</h3></li>
+    <li class="reveal"><i data-lucide="eye"></i><h3>Attention to detail</h3></li>
+    <li class="reveal"><i data-lucide="sparkles"></i><h3>Clean, hygienic tools</h3></li>
+    <li class="reveal"><i data-lucide="droplet"></i><h3>Premium grooming products</h3></li>
+    <li class="reveal"><i data-lucide="user-check"></i><h3>Personalised service</h3></li>
+    <li class="reveal"><i data-lucide="home"></i><h3>Convenient home appointments</h3></li>
+  </ul>
+  <!-- Testimonials intentionally omitted until real customer feedback is supplied. -->
+</section>
+
+<!-- BOOKING -->
+<section class="sec alt" id="book">
+  <div class="head reveal"><p class="eyebrow">Book</p><h2>Your Next Look Starts Here.</h2><p>Choose your service and preferred time. We'll confirm your appointment directly.</p></div>
+  <form id="form" novalidate class="form">
+    <div class="f"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required><small class="err" id="e-name"></small></div>
+    <div class="f"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" required><small class="err" id="e-phone"></small></div>
+    <div class="f"><label for="service">Service</label><select id="service" name="service" required><option value="">Select a service</option>
+      <option>Classic Haircut</option><option>Low / Mid Fade</option><option>Skin Fade &amp; Styling</option><option>Haircut &amp; Beard Grooming</option><option>Beard Trim &amp; Line-up</option><option>Hair Dyeing</option><option>Hair Treatment</option><option>Home Service</option></select><small class="err" id="e-service"></small></div>
+    <div class="f"><label for="type">Appointment type</label><select id="type" name="type" required><option value="">Select type</option><option>In-shop</option><option>Home service</option></select><small class="err" id="e-type"></small></div>
+    <div class="f"><label for="date">Preferred date</label><input id="date" name="date" type="date" required><small class="err" id="e-date"></small></div>
+    <div class="f"><label for="time">Preferred time</label><select id="time" name="time" required><option value="">Select time</option></select><small class="err" id="e-time"></small></div>
+    <div class="f full" id="addrWrap" hidden><label for="address">Location / address</label><input id="address" name="address" autocomplete="street-address"><small class="err" id="e-address"></small></div>
+    <div class="f full"><label for="notes">Additional notes (optional)</label><textarea id="notes" name="notes" rows="3"></textarea></div>
+    <div class="full"><button class="btn" type="submit">Send Request via WhatsApp</button>
+      <p class="status" id="status" role="status"></p></div>
+  </form>
+</section>
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer class="foot" id="contact">
+  <div class="cta"><h2>Book Your Next Haircut.</h2><a class="btn" href="#book">Book Appointment</a></div>
+  <div class="cols">
+    <div><h3>Visit</h3><p>[Salon address placeholder]</p></div>
+    <div><h3>Hours</h3><p>[Opening hours placeholder]</p></div>
+    <div><h3>Connect</h3><p><a id="waLink" href="#" target="_blank" rel="noopener">WhatsApp</a> · <a href="#" rel="noopener">Instagram</a> · <a href="#" rel="noopener">TikTok</a> · <a href="#" rel="noopener">Google Maps</a></p></div>
+  </div>
+  <p class="copy">© <span id="year"></span> MAISON NOIR. All rights reserved.</p>
+</footer>
+<a class="wa" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"><i data-lucide="message-circle"></i></a>
+
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
